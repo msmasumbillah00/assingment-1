@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+footer {
+    background-color: black;
+    height: 130px;
+    padding: 27px;
+    color: white;
+    text-align: center;
+}
+
+.footer-title {
+    color: rgb(255, 89, 91);
+
+
+}
