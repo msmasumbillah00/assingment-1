@@ -146,6 +146,42 @@ section {
 
 
 /* ------------------------------------------------ */
+.help-hand {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    text-align: left;
+    padding: 20px;
+    align-items: center;
+    height: 400px;
+}
+
+.help-hand p {
+    margin: 0;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+.help-hand h1 {
+    font-size: 40px;
+}
+
+.half-width {
+    width: 50%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.half-width img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* ------------------------------------------------ */
 
 .my-updates-section {
     width: 70%;
