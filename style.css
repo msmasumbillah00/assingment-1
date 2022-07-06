@@ -1,17 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
     margin: 0;
+    font-family: sans-serif;
+
 }
+
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1~p {
+    width: 60%;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(104, 104, 104);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+main {
+    padding: 0 10%;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.baner-section {
+    padding: 220px;
+    background-color: rgb(12, 12, 13);
+    color: rgb(255, 255, 255);
+    background-image: url("images/donation111.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.baner-title {
+    font-size: 85px;
+}
+
+.baner-title span {
+    color: #ffd001;
+}
+
+#baner-discripe {
+    color: white;
+}
+
+.donet-button {
+    text-decoration: none;
+    background-color: rgb(255, 89, 89);
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.title-header {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+
+}
+
+
+/* ------------------------------------------------ */
+
+.donate-section {
+    width: 70%;
+}
+
+#amoutns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.donate-amount {
+    background-color: rgb(226, 226, 231);
+    text-align: center;
+    font-size: 40px;
+    color: rgb(97, 99, 100);
+    border-radius: 10px;
+    padding: 50px 30px;
+    margin: 15px;
+
+}
+
+#default-donate-amount {
+    border: 3px solid rgb(247, 125, 18);
+    background-color: #e5816228;
+    color: #ff7701;
+}
+
+#donate-amount-npt {
+    margin-bottom: 40px;
+    width: 90%;
+    border: 0;
+    border-bottom: 2px solid rgb(194, 192, 192);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+/* ------------------------------------------------ */
+
+.our-planes {
+    display: flex;
+}
+
+.donate-plan {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 50px 25px;
+    text-align: left;
+    width: 30%;
+}
+
+.donate-plan p {
+    width: 100%;
+    line-height: 30px;
+}
+
+.plan-1 {
+    background-color: rgb(237, 245, 247);
+}
+
+.plan-2 {
+    background-color: rgb(254, 238, 238);
+}
+
+.plan-3 {
+    background-color: rgb(255, 244, 214);
+}
+
+
+
+/* ------------------------------------------------ */
+
+.my-updates-section {
+    width: 70%;
+}
+
+form {
+    padding: 90px;
+    background-color: rgb(255, 244, 214);
+
+}
+
+#email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+form input {
+    background-color: rgb(217, 217, 217);
+    border: 0;
+    padding: 15px;
+    font-size: 25px;
+    width: 40%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* ------------------------------------------------ */
 
 footer {
     background-color: black;
-    height: 130px;
-    padding: 27px;
+    padding: 50px;
     color: white;
     text-align: center;
 }
 
 .footer-title {
-    color: rgb(255, 89, 91);
-
-
+    color: rgb(229, 106, 18);
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
 }
